@@ -1,3 +1,9 @@
+/* 
+add this to menifest.json content script for dark mode.
+"css": ["style.css"],
+*/
+
+
 html *{
 	background-color: #262626 !important;
 }

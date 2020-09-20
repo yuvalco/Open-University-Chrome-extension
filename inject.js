@@ -11,12 +11,6 @@
             // node 6 is where the cell of the status.
             if (nodes[6].innerText === 'נדחה' || nodes[6].innerText === 'הוחלף')
                 nodes[6].parentNode.remove();
-        
-            
-            // nodes.forEach (row =>{
-            //     if (row.innerText == 'נדחה' || row.innerText == 'הוחלף')
-            //         row.parentNode.remove()
-            // });
         }
     });
 
@@ -45,6 +39,6 @@ function changeImages()
     images.forEach(image => {
         // image.setAttribute("src" , "ishur_adpasa_mine.gif");
     });
-    console.log("wow");
+
     
 }
