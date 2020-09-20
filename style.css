@@ -1,0 +1,478 @@
+html *{
+	background-color: #262626 !important;
+}
+body *{
+	font-family: Arial, Helvetica, sans-serif; margin-top: 0px; background-color: #262626 !important;
+}
+
+/* unvisited link */
+a:link {
+	color: rgb(221, 111, 21);
+  }
+  
+  /* visited link */
+  a:visited {
+	color: rgb(194, 197, 12);
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+	color: rgb(255, 0, 0);
+  }
+
+tbody {
+	color: #f2f2f2;
+}
+p {
+	direction: rtl;
+}
+p.covid_p {
+	margin-top: 5px;
+    margin-bottom: 5px;
+	font-size: 13px;
+	padding-right: 5px;
+}
+p.covid_p:first-of-type {
+    /*background-color: rgba(5, 104, 57, .15);*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.grid_10 p {
+	margin: 14px 0px 0px; padding: 0px; float: right;
+}
+header img {
+	border: 0px currentColor; border-image: none; vertical-align: top;
+}
+header .grid_2 img {
+	margin-top: 3px;
+}
+.container_12 .grid_12 {
+	width: 960px; margin-right: 0px; margin-left: 0px;
+}
+.container_12 .grid_3 {
+	width: 255px;
+}
+.container_12 .grid_1 {
+	width: 35px;
+}
+nav {
+	height: 30px; padding-bottom: 5px; margin-top: 10px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: outset; z-index: 3000;
+}
+nav .grid_12 {
+	width: 960px; margin-right: 0px;
+}
+a {
+	cursor: pointer;
+}
+a.menu_in {
+	width: 90%; float: right;
+}
+nav ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.one_click {
+	list-style: none; margin: 0px; padding: 0px;
+}
+ul.one_click {
+	margin-bottom: 30px;
+}
+li.one_click {
+	padding: 6px 8px;
+}
+nav ul li {
+	padding: 6px 8px; text-align: right; font-size: 15px; border-left-color: rgb(14, 169, 219); border-left-width: 1px; border-left-style: dotted; float: right; display: block;
+}
+.one_click {
+	padding: 6px 8px; text-align: right; font-size: 15px; border-left-color: rgb(14, 169, 219); border-left-width: 1px; border-left-style: dotted; float: right; display: block;
+}
+nav ul li a:link {
+	color: rgb(212, 212, 212); text-decoration: none;
+}
+nav ul li a:visited {
+	color: rgb(236, 236, 236); text-decoration: none;
+}
+.one_click a:link {
+	color: rgb(236, 236, 236); text-decoration: none;
+}
+.one_click a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+nav ul li a:hover {
+	color: rgb(14, 169, 219);
+}
+.one_click a:hover {
+	color: rgb(14, 169, 219);
+}
+nav ul li.dropdown-visible a:hover {
+	color: rgb(14, 169, 219);
+}
+.one_click a:hover {
+	color: rgb(14, 169, 219);
+}
+.menu > li {
+	height: 17px; position: relative;
+}
+#dropdown_menu_0 a:hover {
+	color: rgb(236, 236, 236);
+}
+#dropdown_menu_5 {
+	border: currentColor; border-image: none;
+}
+nav ul li.dropdown_menu ul {
+	margin: 19px 0px 6px; padding: 0px; border: 2px solid rgb(21, 121, 164); border-image: none; top: 20px; width: 266px; right: 0px; display: none; position: absolute; z-index: 9999; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul img.tri_line_blue {
+	top: -19px; width: 266px; right: -5px; position: absolute;
+}
+nav ul li.dropdown_menu ul.top_menu {
+	border: 1px solid rgb(228, 228, 228); border-image: none; top: 40px; width: 280px; right: auto; margin-left: 10px; display: block;
+}
+nav ul li#dropdown_menu_9 {
+	padding: 4px 0px 0px 4px; border-left-color: currentColor; border-left-width: medium; border-left-style: none; direction: ltr;
+}
+nav ul li#dropdown_menu_10 {
+	padding: 4px 0px 0px 4px; border-left-color: currentColor; border-left-width: medium; border-left-style: none; direction: ltr;
+}
+nav ul li#dropdown_menu_11 {
+	padding: 4px 0px 0px 4px; border-left-color: currentColor; border-left-width: medium; border-left-style: none; direction: ltr;
+}
+nav ul li#dropdown_menu_12 {
+	padding: 4px 0px 0px 4px; border-left-color: currentColor; border-left-width: medium; border-left-style: none; direction: ltr;
+}
+nav ul li.dropdown_menu ul#sub_menu_1 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_2 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_3 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_4 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_5 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_6 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_7 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_8 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_9 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_10 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_11 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_12 li {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+.one_click {
+	padding: 6px 8px; width: 250px; border-bottom-color: rgb(228, 228, 228); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: medium; border-bottom-style: solid; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+nav ul li.dropdown_menu ul#sub_menu_9 li {
+	width: 264px; direction: rtl;
+}
+nav ul li.dropdown_menu ul#sub_menu_10 li {
+	width: 264px; direction: rtl;
+}
+nav ul li.dropdown_menu ul#sub_menu_11 li {
+	width: 264px; direction: rtl;
+}
+nav ul li.dropdown_menu ul#sub_menu_12 li {
+	width: 264px; direction: rtl;
+}
+nav ul li.dropdown_menu ul#sub_menu_1 li.sub_menu_open_close {
+	padding: 4px 8px; background-color: rgb(242, 242, 242);
+}
+nav ul li.dropdown_menu ul#sub_menu_2 li.sub_menu_open_close {
+	padding: 4px 8px; background-color: rgb(242, 242, 242);
+}
+nav ul li.dropdown_menu ul#sub_menu_3 li.sub_menu_open_close {
+	padding: 4px 8px; background-color: rgb(242, 242, 242);
+}
+nav ul li.dropdown_menu ul#sub_menu_4 li.sub_menu_open_close {
+	padding: 4px 8px; background-color: rgb(242, 242, 242);
+}
+nav ul li.dropdown_menu ul#sub_menu_5 li.sub_menu_open_close {
+	padding: 4px 8px; background-color: rgb(242, 242, 242);
+}
+nav ul li.dropdown_menu ul#sub_menu_6 li.sub_menu_open_close {
+	padding: 4px 8px; background-color: rgb(242, 242, 242);
+}
+nav ul li.dropdown_menu ul#sub_menu_7 li.sub_menu_open_close {
+	padding: 4px 8px; background-color: rgb(242, 242, 242);
+}
+nav ul li.dropdown_menu ul#sub_menu_8 li.sub_menu_open_close {
+	padding: 4px 8px; background-color: rgb(242, 242, 242);
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close {
+	padding: 4px 0px;
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close ul {
+	margin: 10px 0px 0px; border: 0px currentColor; border-image: none; width: 100%; float: right; position: static;
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close ul#sub_menu_in_1 li {
+	width: 234px; margin-right: 0px;
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close ul#sub_menu_in_2 li {
+	width: 234px; margin-right: 0px;
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close ul#sub_menu_in_3 li {
+	width: 234px; margin-right: 0px;
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close ul#sub_menu_in_4 li {
+	width: 234px; margin-right: 0px;
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close ul#sub_menu_in_5 li {
+	width: 234px; margin-right: 0px;
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close ul#sub_menu_in_6 li {
+	width: 234px; margin-right: 0px;
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close ul#sub_menu_in_7 li {
+	width: 234px; margin-right: 0px;
+}
+nav ul li.dropdown_menu ul li.sub_menu_open_close ul#sub_menu_in_8 li {
+	width: 234px; margin-right: 0px;
+}
+nav img {
+	padding: 5px 5px 0px 7px; float: left;
+}
+nav img.img_homapage {
+	padding: 0px 0px 0px 5px; width: 25px; margin-top: -4px; float: right;
+}
+.arrowhead_clickmenu {
+	margin-top: -2px; float: right;
+}
+nav img.arrowhead {
+	margin: 0px; padding: 0px; height: 21px; float: left;
+}
+.divider {
+	padding: 10px 0px;
+}
+.divider hr {
+	border-style: dotted; border-color: rgb(85, 85, 85);
+}
+.devider_vertical {
+	width: 9px; height: 650px; border-right-color: rgb(85, 85, 85); border-right-width: 1px; border-right-style: dotted; float: right;
+}
+#left_col {
+	border-right-color: rgb(85, 85, 85); border-right-width: 1px; border-right-style: dotted; float: left;
+}
+#left_col h2 {
+	color: rgb(85, 85, 85);
+}
+#left_col .grid_4 {
+	width: 300px; padding-right: 20px;
+}
+.inner {
+	width: 290px; margin-right: 3px; border-bottom-color: rgb(85, 85, 85); border-bottom-width: 1px; border-bottom-style: dotted; float: right; display: inline; position: relative;
+}
+.last {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.one_click {
+	border: currentColor; border-image: none;
+}
+footer {
+	width: 100%; font-size: 14px; margin-right: 0px; margin-left: 0px; float: right; display: inline; position: relative; direction: rtl;
+}
+header {
+	width: 100%; font-size: 14px; margin-right: 0px; margin-left: 0px; float: right; display: inline; position: relative; direction: rtl;
+	background-color: #262626;
+}
+header {
+	padding: 0px 0px 10px;
+	background-color: #262626;
+}
+footer {
+	padding: 10px 0px; margin-top: 10px; border-top-color: rgb(138, 121, 121); border-top-width: 1px; border-top-style: solid;
+}
+footer .grid_4 {
+	text-align: right; direction: rtl;
+}
+.grid_3 {
+	text-align: right; direction: rtl;
+}
+footer p {
+	margin: 0px;
+}
+header .grid_10 {
+	text-align: right; float: left; direction: rtl;
+}
+.name_div {
+	color: rgb(28, 97, 174); clear: both; font-size: 20px; float: right;
+}
+.pink-text {
+	color: rgb(191, 1, 92);
+}
+.blue-text {
+	color: rgb(21, 121, 164);
+}
+a.blue-text {
+	text-decoration: none;
+}
+.gray-background {
+	width: 100%; float: right; background-color: rgb(242, 242, 242);
+}
+div.left {
+	text-align: center; direction: rtl;
+}
+h3.left_title {
+	margin: 10px 10px 0px 0px; text-align: right; font-size: 18px; direction: rtl;
+}
+h3.title1 {
+	margin: 10px 10px 0px 0px; text-align: right; color: rgb(28, 97, 174); padding-top: 5px; font-size: 26px; font-weight: normal;
+}
+img.img_left {
+	border: 0px currentColor; border-image: none; margin-top: 5px;
+}
+img.img_left#mapa_img {
+	width: 270px; height: 135px;
+}
+#img_360 {
+	margin-top: 0px;
+}
+.links {
+	width: 75px; color: rgb(58, 58, 58); font-size: 14px; font-weight: normal;
+}
+.links_menu {
+	width: 85px; text-align: center; color: rgb(58, 58, 58); font-size: 14px; font-weight: normal;
+}
+.div_links {
+	padding: 9px; float: right;
+}
+.div_links a {
+	text-decoration: none;
+}
+.div_links img {
+	border: currentColor; border-image: none;
+}
+textarea#textarea_tshuva {
+	padding: 0px; width: 100%; overflow: hidden; font-family: arial; resize: none;
+}
+select.answers {
+	width: 100%; font-family: arial; -ms-word-wrap: break-word;
+}
+#send_button {
+	border: currentColor; border-image: none; width: 130px; height: 30px;
+}
+.blue_title {
+	color: rgb(28, 97, 174); font-size: 24px;
+}
+.covid_title {
+	color: rgb(5, 104, 57); font-size: 24px;
+	background-image: url(images/covid19_3.png);
+/*	/ows-img/_default/content/themes/new-sheilta/images/covid19_3.png
+*/	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 50px;
+	background-size: contain;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.covid_title small {
+	color: #333;
+}
+table.content_tbl {
+	border: 1px solid rgb(241, 241, 241); border-image: none; border-collapse: collapse;
+}
+table.content_tbl {
+	border: 1px solid rgb(242, 242, 242); border-image: none;
+}
+table.content_tbl td {
+	border: 1px solid rgb(242, 242, 242); border-image: none;
+}
+table.content_tbl th {
+	border: 1px solid rgb(242, 242, 242); border-image: none;
+}
+table.content_tbl th {
+	color: rgb(57, 158, 213); border-bottom-color: rgb(242, 242, 242); border-bottom-width: 3px; border-bottom-style: solid;
+}
+table.content_tbl.covid_table th {
+	color: rgba(5, 104, 57, .9); 
+	white-space: nowrap;
+}
+table.content_tbl.covid_table th {
+	vertical-align: middle;
+}
+table.content_tbl.covid_table td {
+	vertical-align: top;
+}
+.content_tbl tr {
+	vertical-align: middle;
+}
+.covid_dividing_line {
+	border-color: rgba(118, 118, 118, .2);
+    border-style: solid;
+    border-bottom: none;
+	margin-top: 0;
+}
+.div_links.covid_single_click {
+	clear: right;
+    float: none;
+}
+.div_links.covid_single_click > .div_links {
+	float: none;
+}
+.div_links.covid_single_click > .div_links .links {
+	margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+}
+	/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgba(118, 118, 118, .1);
+  color: #262626;
+  cursor: pointer;
+  padding: 15px;
+  width: 580px;
+  text-align: right;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion.active, .accordion:hover {
+  background-color: rgba(5, 104, 57, .2);
+}
+	.accordion:focus {
+		outline: dotted 1px #333;
+	}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0;
+  background-color: #f2f2f2;
+	max-height: 0;
+  overflow: hidden;
+	transition: max-height 0.4s ease-out;
+}
+	.accordion:after {
+  content: '\002B'; /* Unicode character for "plus" sign (+) */
+  font-size: 24px;
+  color: rgba(5, 104, 57, .6);
+  float: left;
+  margin-right: 5px;
+	line-height: .5;
+}
+
+.accordion.active:after {
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
+}

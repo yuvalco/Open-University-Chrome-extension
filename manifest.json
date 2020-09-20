@@ -1,0 +1,26 @@
+{
+    "name": "Open university dark mode",
+    "version": "1.0",
+    "description": "enable dark mode on the university website",
+    "permissions": ["activeTab", "declarativeContent"],
+
+    "background": {
+        "scripts": ["background.js"],
+        "presistent": true
+    },
+
+    "content_scripts" : [
+        {
+          "js": ["inject.js"],
+          "css": ["style.css"],
+          "matches": ["*://sheilta.apps.openu.ac.il/pls/dmyopt2/course_info.courses*"]
+        }
+     ],
+
+     "web_accessible_resources" : [ 
+        "ishur_adpasa_mine/*.gif" 
+         ],
+
+
+    "manifest_version": 2
+}
