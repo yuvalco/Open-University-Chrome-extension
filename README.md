@@ -6,7 +6,6 @@ If you want to enable dark mode, go to style.css and follow the instructions in 
 
 
 ### Before
-### Board
 ![image1](https://github.com/yuvalco/Open-University-Chrome-extension/blob/master/Before.png)
 
 ### After
